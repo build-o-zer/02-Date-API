@@ -1,14 +1,15 @@
 package org.buildozers.katas;
 
 import lombok.extern.slf4j.Slf4j;
-import org.buildozers.katas.kata03.Kata03;
 import org.buildozers.katas.kata03.City;
+import org.buildozers.katas.kata03.Kata03;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.time.ZonedDateTime;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @Slf4j
 class Kata03Test {
@@ -25,7 +26,7 @@ class Kata03Test {
         int minutes = 30;
 
         // when
-        ZonedDateTime zonedDateTime = Kata03.getTimeAtArrival(from,to,departureDate, hours,minutes);
+        ZonedDateTime zonedDateTime = Kata03.getTimeAtArrival(from, to, departureDate, hours, minutes);
 
         // then
         assertNotNull(zonedDateTime);

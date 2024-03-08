@@ -4,7 +4,7 @@ import org.buildozers.katas.kata02.Kata02;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class Kata02Test {
 
