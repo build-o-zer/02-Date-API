@@ -11,7 +11,7 @@ import java.time.format.DateTimeFormatter;
 
 @Slf4j
 @UtilityClass
-public class Exercice03 {
+public class Kata03 {
     public static final String DATE_TIME_PATTERN = "yyyy-MM-dd HH:mm";
 
 

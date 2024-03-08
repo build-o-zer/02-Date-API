@@ -14,7 +14,7 @@ import java.util.stream.Stream;
 
 @Slf4j
 @UtilityClass
-public class Exercice02 {
+public class Kata02 {
 
     /**
      * Returns a readable calendar of the chosen month of the specified year.

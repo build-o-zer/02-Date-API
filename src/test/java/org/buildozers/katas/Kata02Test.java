@@ -1,22 +1,22 @@
 package org.buildozers.katas;
 
-import org.buildozers.katas.kata02.Exercice02;
+import org.buildozers.katas.kata02.Kata02;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class Exercice02Test {
+class Kata02Test {
 
     @Test
-    @DisplayName("Exercice 02 - Readable Month Calendar ")
+    @DisplayName("Kata 02 - Readable Month Calendar ")
     void getReadableMonthCalendar() {
         // given
         int year = 2013;
         int month = 3; // march
 
         // when
-        String result = Exercice02.getReadableMonthCalendar(year, month);
+        String result = Kata02.getReadableMonthCalendar(year, month);
 
         // then
         String expectedResult = """

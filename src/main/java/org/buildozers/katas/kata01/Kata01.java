@@ -7,7 +7,7 @@ import java.time.format.DateTimeParseException;
 import java.time.temporal.ChronoUnit;
 
 @UtilityClass
-public class Exercice01 {
+public class Kata01 {
 
 
     public static int getDaysBetweenDates(String firstDate, String secondDate)
