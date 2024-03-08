@@ -1,12 +1,8 @@
-package org.buildozers.exercices;
+package org.buildozers.katas.kata03;
 
-import org.buildozers.ref.City;
-
-import java.time.LocalDateTime;
 import java.time.ZonedDateTime;
-import java.util.Date;
 
-public class Exercice03 {
+public class Kata03 {
 
 
     // TODO : this method must return controlled Exceptions named :
@@ -30,6 +26,6 @@ public class Exercice03 {
      */
     public static ZonedDateTime getTimeAtArrival(City from, City to, String flightDate, int flightHours, int flightMinute)
     {
-       return ZonedDateTime.parse("2024-02-29T06:30+01:00[Europe/Paris]");
+       return ZonedDateTime.parse("2024-02-29T03:30+01:00[Europe/Paris]");
     }
 }

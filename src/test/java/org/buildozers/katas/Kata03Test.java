@@ -1,19 +1,17 @@
-package org.buildozers.exercices;
+package org.buildozers.katas;
 
 import lombok.extern.slf4j.Slf4j;
-import org.buildozers.ref.City;
+import org.buildozers.katas.kata03.Kata03;
+import org.buildozers.katas.kata03.City;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import java.time.Instant;
-import java.time.ZoneId;
 import java.time.ZonedDateTime;
-import java.time.format.DateTimeFormatter;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 @Slf4j
-class Exercice03Test {
+class Kata03Test {
 
     @Test
     @DisplayName("Exercice 03 - Get Time At Arrival")
@@ -22,16 +20,16 @@ class Exercice03Test {
         // given
         City from = City.CHICAGO;
         City to = City.PARIS;
-        String departureDate = "2024-02-28";
+        String departureDate = "2024-02-28 10:00";
         int hours = 10;
         int minutes = 30;
 
         // when
-        ZonedDateTime zonedDateTime = Exercice03.getTimeAtArrival(from,to,departureDate, hours,minutes);
+        ZonedDateTime zonedDateTime = Kata03.getTimeAtArrival(from,to,departureDate, hours,minutes);
 
         // then
         assertNotNull(zonedDateTime);
-        assertEquals("2024-02-29T06:30+01:00[Europe/Paris]", zonedDateTime.toString());
+        assertEquals("2024-02-29T03:30+01:00[Europe/Paris]", zonedDateTime.toString());
 
     }
 

@@ -1,6 +1,6 @@
-package org.buildozers.exercices;
+package org.buildozers.katas.kata01;
 
-public class Exercice01 {
+public class Kata01 {
 
     public static int getDaysBetweenDates(String firstDate, String secondDate)
     {

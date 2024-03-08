@@ -1,4 +1,4 @@
-package org.buildozers.ref;
+package org.buildozers.katas.kata03;
 
 
 import lombok.Getter;
@@ -9,8 +9,8 @@ import lombok.RequiredArgsConstructor;
 public enum City {
     // Main cities in the USA
     NEW_YORK("America/New_York"),
-    LOS_ANGELES("America/Los_Angeles"),
-    CHICAGO("America/Chicago"),
+    LOS_ANGELES("America/Los_Angeles"), //NOSONAR
+    CHICAGO("America/Chicago"), //NOSONAR
     HOUSTON("America/Chicago"),
     PHOENIX("America/Phoenix"),
     PHILADELPHIA("America/New_York"),
