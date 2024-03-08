@@ -4,16 +4,6 @@ import java.time.ZonedDateTime;
 
 public class Kata03 {
 
-
-    // TODO : this method must return controlled Exceptions named :
-    // - CityUnknowException (for both from and to parameters)
-    // - TimeOutOfBoundException, if hours are not between 0 and 23 and minutes not between 0 and 59
-    //
-    // and an un-controlled Exception named :
-    // - InvalidDateException with the message "cannot read date from the given input" if the input flightDate is not valid
-    //
-    // update the test class to verify these behaviours.
-
     /**
      * Returns the estimated arrival date and time at destination, in the timezone of the destination
      *
