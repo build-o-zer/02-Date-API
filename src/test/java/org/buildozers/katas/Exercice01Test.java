@@ -1,8 +1,8 @@
-package org.buildozers.exercices;
+package org.buildozers.katas;
 
-import org.buildozers.exercices.kata01.DateValidationException;
-import org.buildozers.exercices.kata01.Exercice01;
-import org.buildozers.exercices.kata01.WrongDateFormatException;
+import org.buildozers.katas.kata01.DateValidationException;
+import org.buildozers.katas.kata01.Exercice01;
+import org.buildozers.katas.kata01.WrongDateFormatException;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.function.Executable;

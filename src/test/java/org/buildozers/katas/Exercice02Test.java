@@ -1,6 +1,6 @@
-package org.buildozers.exercices;
+package org.buildozers.katas;
 
-import org.buildozers.exercices.kata02.Exercice02;
+import org.buildozers.katas.kata02.Exercice02;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

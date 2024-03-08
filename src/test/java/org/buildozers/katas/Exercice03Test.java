@@ -1,8 +1,8 @@
-package org.buildozers.exercices;
+package org.buildozers.katas;
 
 import lombok.extern.slf4j.Slf4j;
-import org.buildozers.exercices.kata03.Exercice03;
-import org.buildozers.ref.City;
+import org.buildozers.katas.kata03.Exercice03;
+import org.buildozers.katas.kata03.City;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

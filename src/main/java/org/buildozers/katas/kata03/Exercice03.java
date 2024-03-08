@@ -1,8 +1,7 @@
-package org.buildozers.exercices.kata03;
+package org.buildozers.katas.kata03;
 
 import lombok.experimental.UtilityClass;
 import lombok.extern.slf4j.Slf4j;
-import org.buildozers.ref.City;
 
 import java.time.Duration;
 import java.time.LocalDateTime;

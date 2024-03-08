@@ -1,4 +1,4 @@
-package org.buildozers.exercices.kata02;
+package org.buildozers.katas.kata02;
 
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.UtilityClass;

@@ -1,4 +1,4 @@
-package org.buildozers.exercices.kata01;
+package org.buildozers.katas.kata01;
 
 import lombok.experimental.UtilityClass;
 
